@@ -1,0 +1,10 @@
+a="soya"
+b=50
+c=5
+BMI=(b/(c**2))
+if(BMI<3):
+    print(a,"underweight")
+elif(BMI==7):
+    print(a,"actualweight")
+else:
+    print(a,"overweight")
